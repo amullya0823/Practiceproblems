@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class pp10 {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        double heightCm;
+        System.out.print("Enter height in cm: ");
+        heightCm = input.nextDouble();
+
+        double inches = heightCm / 2.54;
+        double feet = inches / 12;
+
+        System.out.println("Your Height in cm is " + heightCm +
+                           " while in feet is " + feet +
+                           " and inches is " + inches);
+    }
+}
